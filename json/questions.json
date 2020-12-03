@@ -1,0 +1,1222 @@
+{
+    "questions": [
+        {
+            "lessons": [
+                {
+                    "name": "Bilgisayar Mimarisi",
+                    "periods": [
+                        {
+                            "name": "Vize",
+                            "subjects": [
+                                {
+                                    "name": "Adresleme Kipleri",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden adresleme kiplerinden hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi adresleme kipidir Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Yığıt Kurulumu",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                          "name": "Final",
+                            "subjects": [
+                                {
+                                    "name": "Çarpma Algoritmaları",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Noktalı Aritmetik İşlemler",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Veri Yapıları",
+                    "periods": [
+                        {
+                            "name": "Vize",
+                            "subjects": [
+                                {
+                                    "name": "2li Agac",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Stack Yapısı",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                          "name": "Final",
+                            "subjects": [
+                                {
+                                    "name": "Quick Sort",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Selection Sort",
+                                    "kinds": [
+                                        {
+                                            "name": "Test",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 1   B) 2   C) 3   D) 4 ",
+                                                    "point":5
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "answer":"A) 10   B) 20   C) 30   D) 40",
+                                                    "point":5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Klasik",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
+                                                    "point":10
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Boşluk Doldurma",
+                                            "questions": [
+                                                {
+                                                    "key":1,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":2,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":3,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":4,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":5,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":6,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":7,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                },
+                                                {
+                                                    "key":8,
+                                                    "question":"Aşağıdakilerden ____ Doğrudur?",
+                                                    "point":4
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}        
