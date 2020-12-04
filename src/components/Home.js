@@ -19,22 +19,25 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        
-    console.log(RNFS.ExternalCachesDirectoryPath)
+        console.log(RNFS.ExternalCachesDirectoryPath)
         this.setState({
             dataSource: Data.questions[0].lessons
         })
     }
 
 
-    goTo( item ) {
+    goTo(item) {
         Actions.periods({ item });
+    }
+
+    goTo2() {
+        Actions.addQuestions();
     }
 
     render() {
         const { dataSource } = this.state;
 
-        return (<View style={styles.main}>
+        return (<View style={styles.main} >
             <View style={styles.header}><Text style={styles.headerText}>Sınav Hazırlama</Text></View>
             <View style={styles.body}>
                 <FlatList
@@ -43,7 +46,7 @@ class Home extends Component {
                     renderItem={({ item }) => {
                         return (
 
-                            <TouchableOpacity onPress={() => this.goTo( item )} style={styles.card}>
+                            <TouchableOpacity onPress={() => this.goTo(item)} style={styles.card}>
                                 <Text style={styles.cardText}>{item.name}</Text>
                             </TouchableOpacity>
 
@@ -51,6 +54,9 @@ class Home extends Component {
                     }}
                 />
             </View>
+            <TouchableOpacity onPress={() => this.goTo2()} style={{ position: 'absolute', bottom: 20, right: 20, width: 100, height: 50, backgroundColor: 'blue', justifyContent: 'center', alignItems: 'center', borderRadius: 20 }}>
+                <Text style={{ color: 'white' }}>Add questions</Text>
+            </TouchableOpacity>
         </View >
 
         )

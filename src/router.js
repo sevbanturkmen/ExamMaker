@@ -5,7 +5,7 @@ import Periods from './components/Periods';
 import Subjects from './components/Subjects';
 import QuestionKinds from './components/QuestionKinds';
 import Questions from './components/Questions';
-// import PDFExample from './components/pdf';
+import AddQuesitons from './components/AddQuestions';
 
 const RouterCompenent = () => {
     return(
@@ -16,7 +16,7 @@ const RouterCompenent = () => {
                 <Scene key="subjects"  component={Subjects} /> 
                 <Scene key="questionKinds"  component={QuestionKinds}  />
                 <Scene key="questions"  component={Questions} /> 
-                {/* <Scene key="pdf" component={PDFExample} /> */}
+                <Scene key="addQuestions" component={AddQuesitons} />
             </Scene>
         </Router>
     )

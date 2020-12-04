@@ -12,6 +12,7 @@ import CheckBox from '@react-native-community/checkbox';
 import RNFS, { ExternalDirectoryPath } from 'react-native-fs';
 import { Actions } from 'react-native-router-flux';
 import { Input } from 'react-native-elements';
+import Data from '../../json/questions.json';
 
 class Questions extends Component {
 
@@ -31,13 +32,12 @@ class Questions extends Component {
     this.setState({
       dataSource: this.props.item.questions,
     })
-    console.log(this.state.questions)
   }
 
   showPdf() {
-    // var path = RNFS.ExternalCachesDirectoryPath + '/test.txt';
-    // RNFS.unlink(path)
-    // this.setState({ questions: '' })
+    var path = RNFS.ExternalCachesDirectoryPath;
+    this.setState({ questions: '' })
+    alert(path+' klasöründe dosya oluşturuldu.')
   }
 
   cleanPdf(){
@@ -179,7 +179,7 @@ class Questions extends Component {
               <TouchableOpacity onPress={() => this.addRandomQuestions()} style={styles.selectButton2}><Text style={styles.selectButtonText}>Rastgele Seç</Text></TouchableOpacity>
             </View> : <TouchableOpacity onPress={() => this.addRandomQuestions()} style={styles.selectButton}><Text style={styles.selectButtonText}>Rastgele Seç</Text></TouchableOpacity>}
             <TouchableOpacity onPress={() => this.addQuestions()} style={styles.selectButton}><Text style={styles.selectButtonText}>Seçtiklerimi Ekle</Text></TouchableOpacity>
-            <TouchableOpacity onPress={() => this.createPDF()} style={styles.selectButton}><Text style={styles.selectButtonText}>Pdf göster</Text></TouchableOpacity>
+            <TouchableOpacity onPress={() => this.showPdf()} style={styles.selectButton}><Text style={styles.selectButtonText}>Pdf göster</Text></TouchableOpacity>
             <TouchableOpacity onPress={() => this.cleanPdf()} style={styles.selectButton}><Text style={styles.selectButtonText}>Temizle</Text></TouchableOpacity>
           </View>
         </View>
