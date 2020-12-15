@@ -7,7 +7,6 @@ import {
     FlatList
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import RNFS from 'react-native-fs';
 import Data from '../../json/questions.json';
 
 class Home extends Component {
@@ -19,7 +18,6 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        console.log(RNFS.ExternalCachesDirectoryPath)
         this.setState({
             dataSource: Data.questions[0].lessons
         })
@@ -30,9 +28,6 @@ class Home extends Component {
         Actions.periods({ item });
     }
 
-    goTo2() {
-        Actions.addQuestions();
-    }
 
     render() {
         const { dataSource } = this.state;
@@ -45,18 +40,13 @@ class Home extends Component {
                     keyExtractor={(item) => item.name}
                     renderItem={({ item }) => {
                         return (
-
                             <TouchableOpacity onPress={() => this.goTo(item)} style={styles.card}>
                                 <Text style={styles.cardText}>{item.name}</Text>
                             </TouchableOpacity>
-
                         )
                     }}
                 />
             </View>
-            <TouchableOpacity onPress={() => this.goTo2()} style={{ position: 'absolute', bottom: 20, right: 20, width: 100, height: 50, backgroundColor: 'blue', justifyContent: 'center', alignItems: 'center', borderRadius: 20 }}>
-                <Text style={{ color: 'white' }}>Add questions</Text>
-            </TouchableOpacity>
         </View >
 
         )

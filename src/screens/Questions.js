@@ -35,13 +35,12 @@ class Questions extends Component {
   }
 
   showPdf() {
-    var path = RNFS.ExternalCachesDirectoryPath;
     this.setState({ questions: '' })
-    alert(path+' klasöründe dosya oluşturuldu.')
+    alert('Android/data/com.examgenerator/cache/ klasöründe dosya oluşturuldu.')
   }
 
   cleanPdf(){
-    var path = RNFS.ExternalCachesDirectoryPath + '/test.txt';
+    var path = RNFS.ExternalCachesDirectoryPath + '/sınav.txt';
     RNFS.unlink(path)
     this.setState({ questions: '' })
   }
@@ -58,18 +57,12 @@ class Questions extends Component {
           elpoint = item.point + elpoint
           { el.answer ? elquestions = ''+elquestions +'\n\n\n' + [el.question +'\n\n'+ el.answer]  : elquestions = elquestions +'\n\n\n'+ el.question}
           this.setState({ isChecked: true })
-          this.setState({ point: elpoint })
           this.setState({ questions: elquestions })
-          console.log(elpoint)
-          console.log(elquestions)
         } else if (el.isChecked == false) {
           elpoint = elpoint - item.point
           { item.answer ? elquestions = elquestions = elquestions.replace([item.question + item.answer], '') : elquestions = elquestions.replace(item.question, ''); }
           this.setState({ isChecked: false })
-          this.setState({ point: elpoint })
           this.setState({ questions: elquestions })
-          console.log(elpoint)
-          console.log(elquestions)
         } return elpoint;
       } else if (el.key == item.key) {
 
@@ -79,23 +72,17 @@ class Questions extends Component {
   }
 
   addQuestions() {
-    console.log(RNFS.ExternalCachesDirectoryPath)
-    var path = RNFS.ExternalCachesDirectoryPath + '/test.txt';
-    console.log(path)
+    var path = RNFS.ExternalCachesDirectoryPath + '/sınav.txt';
     RNFS.appendFile(path, this.state.questions)
-      .then((success) => {
-        console.log('FILE WRITTEN!');
-      })
       .catch((err) => {
         console.log(err.message);
       });
     var file = RNFS.readFile(path, 'utf8')
-    console.log(file)
-    console.log(this.state.questions);
+    this.setState({point:0})
   }
 
   addRandomQuestions() {
-    var path = RNFS.ExternalCachesDirectoryPath + '/test.txt';
+    var path = RNFS.ExternalCachesDirectoryPath + '/sınav.txt';
     let data = [...this.state.dataSource];
     const { addPoint, isVisible, point, questions } = this.state;
     var elpoint = point;
@@ -109,23 +96,15 @@ class Questions extends Component {
 
         data.map(el => {
           if (Math.floor(Math.random() * 10) == el.key) {
-            console.log(addPoint)
-            console.log(elpoint)
-            console.log(el.key)
             elpoint = el.point + elpoint
             { el.answer ? elquestions = ''+elquestions +'\n\n\n' + [el.question +'\n\n'+ el.answer]  : elquestions = elquestions +'\n\n\n'+ el.question}
             this.setState({ isChecked: true })
             this.setState({ point: elpoint })
             this.setState({ questions: elquestions })
             RNFS.appendFile(path, this.state.questions)
-              .then((success) => {
-                console.log('FILE WRITTEN!');
-              })
               .catch((err) => {
                 console.log(err.message);
               });
-            console.log(elpoint)
-            console.log(elquestions)
           } else { }
         });
       }
@@ -179,7 +158,7 @@ class Questions extends Component {
               <TouchableOpacity onPress={() => this.addRandomQuestions()} style={styles.selectButton2}><Text style={styles.selectButtonText}>Rastgele Seç</Text></TouchableOpacity>
             </View> : <TouchableOpacity onPress={() => this.addRandomQuestions()} style={styles.selectButton}><Text style={styles.selectButtonText}>Rastgele Seç</Text></TouchableOpacity>}
             <TouchableOpacity onPress={() => this.addQuestions()} style={styles.selectButton}><Text style={styles.selectButtonText}>Seçtiklerimi Ekle</Text></TouchableOpacity>
-            <TouchableOpacity onPress={() => this.showPdf()} style={styles.selectButton}><Text style={styles.selectButtonText}>Pdf göster</Text></TouchableOpacity>
+            <TouchableOpacity onPress={() => this.showPdf()} style={styles.selectButton}><Text style={styles.selectButtonText}>Dosya oluştur</Text></TouchableOpacity>
             <TouchableOpacity onPress={() => this.cleanPdf()} style={styles.selectButton}><Text style={styles.selectButtonText}>Temizle</Text></TouchableOpacity>
           </View>
         </View>

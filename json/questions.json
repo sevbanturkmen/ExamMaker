@@ -16,13 +16,13 @@
                                             "questions": [
                                                 {
                                                     "key":1,
-                                                    "question":"Aşağıdakilerden adresleme kiplerinden hangisi Doğrudur?",
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
                                                     "answer":"A) 1   B) 2   C) 3   D) 4 ",
                                                     "point":5
                                                 },
                                                 {
                                                     "key":2,
-                                                    "question":"Aşağıdakilerden Hangisi adresleme kipidir Doğrudur?",
+                                                    "question":"Aşağıdakilerden Hangisi Doğrudur?",
                                                     "answer":"A) 1   B) 2   C) 3   D) 4",
                                                     "point":5
                                                 },

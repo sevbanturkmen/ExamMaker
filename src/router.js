@@ -1,11 +1,10 @@
 import React from 'react';
 import {Scene,Router, Actions} from 'react-native-router-flux';
-import Home from './components/Home';
-import Periods from './components/Periods';
-import Subjects from './components/Subjects';
-import QuestionKinds from './components/QuestionKinds';
-import Questions from './components/Questions';
-import AddQuesitons from './components/AddQuestions';
+import Home from './screens/Home';
+import Periods from './screens/Periods';
+import Subjects from './screens/Subjects';
+import QuestionKinds from './screens/QuestionKinds';
+import Questions from './screens/Questions';
 
 const RouterCompenent = () => {
     return(
@@ -15,8 +14,7 @@ const RouterCompenent = () => {
                 <Scene key="periods"  component={Periods}  /> 
                 <Scene key="subjects"  component={Subjects} /> 
                 <Scene key="questionKinds"  component={QuestionKinds}  />
-                <Scene key="questions"  component={Questions} /> 
-                <Scene key="addQuestions" component={AddQuesitons} />
+                <Scene key="questions"  component={Questions} />
             </Scene>
         </Router>
     )
